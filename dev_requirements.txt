@@ -2,9 +2,10 @@ lxml-stubs
 pylint==2.15.6
 astroid==2.12.13
 mypy==0.991
-black==22.10.0
+black==24.3.0
 isort
 types-cryptography
 types-dataclasses
 types-pycurl
 types-python-dateutil
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
